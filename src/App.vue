@@ -84,7 +84,7 @@
       </v-list>
     </v-navigation-drawer>
 
-      <router-view />
+    <router-view />
 
     <v-footer color="grey lighten-5 hidden-sm-and-down" elevation="3">
       <v-row justify="center">

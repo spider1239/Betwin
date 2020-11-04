@@ -31,6 +31,20 @@
             <v-carousel-item src="../assets/Home/banner03.jpg">
             </v-carousel-item>
           </v-carousel>
+          <v-carousel
+            hide-delimiter-background
+            hide-delimiters
+            show-arrows-on-hover
+            height="auto"
+            class="hidden-sm-and-up"
+          >
+            <v-carousel-item src="../assets/Home/banner01.jpg">
+            </v-carousel-item>
+            <v-carousel-item src="../assets/Home/banner02.jpg">
+            </v-carousel-item>
+            <v-carousel-item src="../assets/Home/banner03.jpg">
+            </v-carousel-item>
+          </v-carousel>
         </v-col>
       </v-row>
       <v-row class="mt-8">
@@ -116,64 +130,74 @@
           <hr class="main_line mt-1" />
         </v-col>
 
-        <v-col md="2" cols="2">
-          <v-img
-            src="../assets/Home/five/大数据分析管理后台.svg"
-            contain
-            class="text-center"
-          >
-            <div class="fill-height image-gradient white--text rounded-lg">
-              <div class="h5 align-center">大数据分析管理后台</div>
-            </div>
-          </v-img>
+        <v-col md="2" sm="4" cols="6">
+          <v-card elevation="0">
+            <v-img
+              src="../assets/Home/five/大数据分析管理后台.svg"
+              contain
+              class="text-center rounded-lg"
+            >
+              <v-overlay opacity=".35" absolute class="h5">
+                大数据分析管理后台
+              </v-overlay>
+            </v-img>
+          </v-card>
         </v-col>
 
-        <v-col md="2" cols="2">
-          <v-img
-            src="../assets/Home/five/高端攻防服务器.svg"
-            contain
-            class="text-center"
-          >
-            <div class="fill-height image-gradient h5 white--text rounded-lg">
-              高端攻防服务器
-            </div>
-          </v-img>
+        <v-col md="2" sm="4" cols="6">
+          <v-card elevation="0">
+            <v-img
+              src="../assets/Home/five/高端攻防服务器.svg"
+              contain
+              class="text-center rounded-lg"
+            >
+              <v-overlay opacity=".35" absolute class="h5">
+                高端攻防服务器
+              </v-overlay>
+            </v-img>
+          </v-card>
         </v-col>
 
-        <v-col md="2" cols="2">
-          <v-img
-            src="../assets/Home/five/对接第三方支付.svg"
-            contain
-            class="text-center"
-          >
-            <div class="fill-height image-gradient h5 white--text rounded-lg">
-              对接第三方支付
-            </div>
-          </v-img>
+        <v-col md="2" sm="4" cols="6">
+          <v-card elevation="0">
+            <v-img
+              src="../assets/Home/five/对接第三方支付.svg"
+              contain
+              class="text-center rounded-lg"
+            >
+              <v-overlay opacity=".35" absolute class="h5">
+                对接第三方支付
+              </v-overlay>
+            </v-img>
+          </v-card>
         </v-col>
 
-        <v-col md="2" cols="2">
-          <v-img
-            src="../assets/Home/five/客制化视觉版面.svg"
-            contain
-            class="text-center"
-          >
-            <div class="fill-height image-gradient h5 white--text rounded-lg">
-              客制化视觉版面
-            </div>
-          </v-img>
+        <v-col md="2" sm="4" cols="6">
+          <v-card elevation="0">
+            <v-img
+              src="../assets/Home/five/客制化视觉版面.svg"
+              contain
+              class="text-center rounded-lg"
+            >
+              <v-overlay opacity=".35" absolute class="h5">
+                客制化视觉版面
+              </v-overlay>
+            </v-img>
+          </v-card>
         </v-col>
 
-        <v-col md="2" cols="2">
-          <v-img
-            src="../assets/Home/five/游戏API渠道完整建站.svg"
-            contain
-            class="text-center"
-          >
-            <div class="fill-height image-gradient h5 white--text rounded-lg">
-              游戏API渠道完整建站
-            </div>
-          </v-img>
+        <v-col md="2" sm="4" cols="6">
+          <v-card elevation="0">
+            <v-img
+              src="../assets/Home/five/游戏API渠道完整建站.svg"
+              contain
+              class="text-center rounded-lg"
+            >
+              <v-overlay opacity=".35" absolute class="h5">
+                游戏API渠道完整建站
+              </v-overlay>
+            </v-img>
+          </v-card>
         </v-col>
       </v-row>
     </v-content>
