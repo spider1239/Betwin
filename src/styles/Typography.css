@@ -1,0 +1,70 @@
+.h1 {
+  font-size: 6rem;
+  font-weight: 300;
+  letter-spacing: -0.09375rem;
+}
+.h2 {
+  font-size: 3.75rem;
+  font-weight: 300;
+  letter-spacing: -0.03125rem;
+}
+.h3 {
+  font-size: 3rem;
+  font-weight: 400;
+  letter-spacing: normal;
+}
+.h4 {
+  font-size: 2.125rem;
+  font-weight: 400;
+  letter-spacing: 0.015625rem;
+}
+.h5 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  letter-spacing: normal;
+}
+.h6 {
+  font-size: 1.25rem;
+  font-weight: 500;
+  letter-spacing: 0.009375rem;
+}
+.subtitle1 {
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: 0.009375rem;
+}
+.subtitle2 {
+  font-size: 0.875rem;
+  font-weight: 400;
+  letter-spacing: 0.00625rem;
+}
+.body1 {
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: 0.03125rem;
+}
+.body2 {
+  font-size: 0.875rem;
+  font-weight: 400;
+  letter-spacing: 0.015625rem;
+}
+.button {
+  font-size: 0.875rem;
+  font-weight: 500;
+  letter-spacing: 0.078235rem;
+  text-transform: uppercase;
+}
+.caption {
+  font-size: 0.75rem;
+  font-weight: 400;
+  letter-spacing: 0.025rem;
+}
+.overline {
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.1666666667rem;
+  text-transform: uppercase;
+}
+.font_Regular {
+  font-weight: 400;
+}
