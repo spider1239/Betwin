@@ -26,7 +26,7 @@
       <v-icon class="mx-4" color="primary darken-4"> mdi-telegram </v-icon>
 
       <template v-slot:extension>
-        <v-tabs grow>
+        <v-tabs grow v-model="tab">
           <v-tab append>
             <router-link to="/" class="nodecoration">首页</router-link>
           </v-tab>

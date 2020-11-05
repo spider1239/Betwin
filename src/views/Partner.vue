@@ -1,6 +1,6 @@
 <template>
   <v-container class="fullwidth">
-    <v-content class="mt-n4">
+    <v-content class="mt-n4 mt-sm-7">
       <v-row>
         <v-col md="12" class="nopadding">
           <v-img
