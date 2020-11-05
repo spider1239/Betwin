@@ -27,11 +27,29 @@
 
       <template v-slot:extension>
         <v-tabs grow>
-          <v-tab append><router-link to="/">首页</router-link></v-tab>
-          <v-tab><router-link to="/system">系统介绍</router-link></v-tab>
-          <v-tab><router-link to="/product">产品簡介</router-link></v-tab>
-          <v-tab><router-link to="/partner">合作伙伴</router-link></v-tab>
-          <v-tab><router-link to="/connection">联络我们</router-link></v-tab>
+          <v-tab append>
+            <router-link to="/" class="nodecoration">首页</router-link>
+          </v-tab>
+          <v-tab>
+            <router-link to="/system" class="nodecoration">
+              系统介绍
+            </router-link>
+          </v-tab>
+          <v-tab>
+            <router-link to="/product" class="nodecoration">
+              产品簡介
+            </router-link>
+          </v-tab>
+          <v-tab>
+            <router-link to="/partner" class="nodecoration">
+              合作伙伴
+            </router-link>
+          </v-tab>
+          <v-tab>
+            <router-link to="/connection" class="nodecoration">
+              联络我们
+            </router-link>
+          </v-tab>
         </v-tabs>
       </template>
     </v-app-bar>
@@ -56,31 +74,33 @@
       <v-divider></v-divider>
 
       <v-list dense nav>
-        <router-link to="/" class="nodecoration">
-          <v-list-item link>
-            <v-list-item-content> 首页 </v-list-item-content>
-          </v-list-item>
-        </router-link>
-        <router-link to="/system" class="nodecoration">
-          <v-list-item link>
-            <v-list-item-content> 系统介绍 </v-list-item-content>
-          </v-list-item>
-        </router-link>
-        <router-link to="/product" class="nodecoration">
-          <v-list-item link>
-            <v-list-item-content> 产品簡介 </v-list-item-content>
-          </v-list-item>
-        </router-link>
-        <router-link to="/partner" class="nodecoration">
-          <v-list-item link>
-            <v-list-item-content> 合作伙伴 </v-list-item-content>
-          </v-list-item>
-        </router-link>
-        <router-link to="/connection" class="nodecoration">
-          <v-list-item link>
-            <v-list-item-content> 联络我们 </v-list-item-content>
-          </v-list-item>
-        </router-link>
+        <v-list-item-group v-model="selectedItem">
+          <router-link to="/" class="nodecoration">
+            <v-list-item link>
+              <v-list-item-content> 首页 </v-list-item-content>
+            </v-list-item>
+          </router-link>
+          <router-link to="/system" class="nodecoration">
+            <v-list-item link>
+              <v-list-item-content> 系统介绍 </v-list-item-content>
+            </v-list-item>
+          </router-link>
+          <router-link to="/product" class="nodecoration">
+            <v-list-item link>
+              <v-list-item-content> 产品簡介 </v-list-item-content>
+            </v-list-item>
+          </router-link>
+          <router-link to="/partner" class="nodecoration">
+            <v-list-item link>
+              <v-list-item-content> 合作伙伴 </v-list-item-content>
+            </v-list-item>
+          </router-link>
+          <router-link to="/connection" class="nodecoration">
+            <v-list-item link>
+              <v-list-item-content> 联络我们 </v-list-item-content>
+            </v-list-item>
+          </router-link>
+        </v-list-item-group>
       </v-list>
     </v-navigation-drawer>
 
@@ -212,6 +232,7 @@ export default {
   name: "App",
 
   data: () => ({
+    selectedItem: 0,
     drawer: false,
     group: null,
     //

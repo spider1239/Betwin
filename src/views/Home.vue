@@ -48,80 +48,98 @@
         </v-col>
       </v-row>
       <v-row class="mt-8">
-        <v-col md="12" class="text-center h5 primary--text text--darken-4">
-          最牛包網
-          <hr class="main_line mt-1" />
-        </v-col>
-
-        <v-row>
-          <v-col md="3" class="text-center">
-            <v-img
-              src="../assets/Home/純原生APP.svg"
-              contain
-              height="90"
-            ></v-img>
-            <div class="h6 secondary--text text--darkent-3 mt-4">纯原生APP</div>
+        <v-img src="../assets/Home/最牛包往底圖.jpg">
+          <v-col md="12" class="text-center h5 primary--text text--darken-4">
+            最牛包網
+            <hr class="main_line mt-1" />
           </v-col>
 
-          <v-col md="3" class="text-center">
-            <v-img src="../assets/Home/客製化.svg" contain height="90"></v-img>
-            <div class="h6 secondary--text text--darkent-3 mt-4">
-              客制化视觉版面
-            </div>
-          </v-col>
+          <v-row>
+            <v-col md="3" class="text-center">
+              <v-img
+                src="../assets/Home/純原生APP.svg"
+                contain
+                height="90"
+              ></v-img>
+              <div class="h6 secondary--text text--darkent-3 mt-4">
+                纯原生APP
+              </div>
+            </v-col>
 
-          <v-col md="3" class="text-center">
-            <v-img
-              src="../assets/Home/跨平台額度.svg"
-              contain
-              height="90"
-            ></v-img>
-            <div class="h6 secondary--text text--darkent-3 mt-4">
-              跨平台额度免转钱包
-            </div>
-          </v-col>
+            <v-col md="3" class="text-center">
+              <v-img
+                src="../assets/Home/客製化.svg"
+                contain
+                height="90"
+              ></v-img>
+              <div class="h6 secondary--text text--darkent-3 mt-4">
+                客制化视觉版面
+              </div>
+            </v-col>
 
-          <v-col md="3" class="text-center">
-            <v-img src="../assets/Home/VIP升降.svg" contain height="90"></v-img>
-            <div class="h6 secondary--text text--darkent-3 mt-4">
-              VIP升降等系统
-            </div>
-          </v-col>
+            <v-col md="3" class="text-center">
+              <v-img
+                src="../assets/Home/跨平台額度.svg"
+                contain
+                height="90"
+              ></v-img>
+              <div class="h6 secondary--text text--darkent-3 mt-4">
+                跨平台额度免转钱包
+              </div>
+            </v-col>
 
-          <v-col md="3" class="text-center mt-10">
-            <v-img
-              src="../assets/Home/好友分享推荐系统.svg"
-              contain
-              height="90"
-            ></v-img>
-            <div class="h6 secondary--text text--darkent-3 mt-4">
-              好友分享推荐系统
-            </div>
-          </v-col>
+            <v-col md="3" class="text-center">
+              <v-img
+                src="../assets/Home/VIP升降.svg"
+                contain
+                height="90"
+              ></v-img>
+              <div class="h6 secondary--text text--darkent-3 mt-4">
+                VIP升降等系统
+              </div>
+            </v-col>
 
-          <v-col md="3" class="text-center mt-10">
-            <v-img src="../assets/Home/返水.svg" contain height="90"></v-img>
-            <div class="h6 secondary--text text--darkent-3 mt-4">时时返水</div>
-          </v-col>
+            <v-col md="3" class="text-center mt-10">
+              <v-img
+                src="../assets/Home/好友分享推荐系统.svg"
+                contain
+                height="90"
+              ></v-img>
+              <div class="h6 secondary--text text--darkent-3 mt-4">
+                好友分享推荐系统
+              </div>
+            </v-col>
 
-          <v-col md="3" class="text-center mt-10">
-            <v-img src="../assets/Home/大數據.svg" contain height="90"></v-img>
-            <div class="h6 secondary--text text--darkent-3 mt-4">
-              大数据分析管理后台
-            </div>
-          </v-col>
+            <v-col md="3" class="text-center mt-10">
+              <v-img src="../assets/Home/返水.svg" contain height="90"></v-img>
+              <div class="h6 secondary--text text--darkent-3 mt-4">
+                时时返水
+              </div>
+            </v-col>
 
-          <v-col md="3" class="text-center mt-10">
-            <v-img
-              src="../assets/Home/遊戲街口.svg"
-              contain
-              height="90"
-            ></v-img>
-            <div class="h6 secondary--text text--darkent-3 mt-4">
-              游戏接口丰富
-            </div>
-          </v-col>
-        </v-row>
+            <v-col md="3" class="text-center mt-10">
+              <v-img
+                src="../assets/Home/大數據.svg"
+                contain
+                height="90"
+              ></v-img>
+              <div class="h6 secondary--text text--darkent-3 mt-4">
+                大数据分析管理后台
+              </div>
+            </v-col>
+
+            <v-col md="3" class="text-center mt-10">
+              <v-img
+                src="../assets/Home/遊戲街口.svg"
+                contain
+                height="90"
+              ></v-img>
+              <div class="h6 secondary--text text--darkent-3 mt-4">
+                游戏接口丰富
+              </div>
+            </v-col>
+          </v-row>
+        </v-img>
       </v-row>
 
       <v-row class="my-15" justify="center">
