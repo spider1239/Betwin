@@ -17,12 +17,13 @@
           ></v-img>
         </v-col>
       </v-row>
-
-      <v-row class="hidden-sm-and-down">
-        <v-col cols="12" class="mt-md-8 nopadding">
-          <v-img src="../assets/System/big_image.jpg" contain></v-img>
-        </v-col>
-      </v-row>
+      <sequential-entrance delay="2000">
+        <v-row class="hidden-sm-and-down">
+          <v-col cols="12" class="mt-md-8 nopadding">
+            <v-img src="../assets/System/big_image.jpg" contain></v-img>
+          </v-col>
+        </v-row>
+      </sequential-entrance>
 
       <v-row class="hidden-md-and-up">
         <v-col sm="4" cols="6" class="text-center">
@@ -148,7 +149,12 @@
           </div>
         </v-col>
         <v-col sm="8" class="hidden-md-and-up">
-          <v-img src="../assets/System/global.png"  width="500"></v-img>
+          <v-img
+            src="../assets/System/global.png"
+            width="500"
+            transition="scroll-y-transition"
+            hide-on-leave
+          ></v-img>
         </v-col>
       </v-row>
     </v-content>

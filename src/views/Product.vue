@@ -92,12 +92,14 @@
 
       <v-row>
         <v-col md="12" class="nopadding">
-          <v-img
-            src="../assets/Product/product.png"
-            contain
-            class="hidden-sm-and-down"
-          >
-          </v-img>
+          <sequential-entrance fromTop delay="3000">
+            <v-img
+              src="../assets/Product/product.png"
+              contain
+              class="hidden-sm-and-down"
+            >
+            </v-img>
+          </sequential-entrance>
           <v-img
             src="../assets/Product/background.png"
             width="100%"

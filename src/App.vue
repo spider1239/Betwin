@@ -4,6 +4,7 @@
       app
       color="white"
       elevation="2"
+      height="90"
       hide-on-scroll
       class="hidden-xs-only"
     >
@@ -12,7 +13,7 @@
           alt="Vuetify Logo"
           contain
           src="./assets/header_logo.png"
-          height="50"
+          height="120"
         />
       </div>
       <v-spacer></v-spacer>
@@ -21,12 +22,14 @@
           传讯息给我们
         </v-btn>
       </router-link>
-      <v-icon class="mx-4" color="primary darken-4"> mdi-email </v-icon>
-      <v-icon color="primary darken-4"> mdi-skype </v-icon>
-      <v-icon class="mx-4" color="primary darken-4"> mdi-telegram </v-icon>
+      <v-icon class="mx-4" color="primary darken-4" large> mdi-email </v-icon>
+      <v-icon color="primary darken-4" large> mdi-skype </v-icon>
+      <v-icon class="mx-4" color="primary darken-4" large>
+        mdi-telegram
+      </v-icon>
 
       <template v-slot:extension>
-        <v-tabs grow v-model="tab">
+        <v-tabs grow v-model="tab" v-bind="props">
           <v-tab append>
             <router-link to="/" class="nodecoration">首页</router-link>
           </v-tab>
@@ -247,6 +250,7 @@ export default {
 </script>
 <style>
 @import "./styles/Typography.css";
+@import "./styles/card.css";
 .components {
   max-width: 90%;
 }
