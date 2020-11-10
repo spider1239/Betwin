@@ -5,8 +5,8 @@
         <v-col cols="12" class="nopadding">
           <carousel-3d
             autoplay="true"
-            width="1300"
-            height="566"
+            width="1440"
+            height="450"
             border="0"
             autoplayTimeout="3000"
             class="hidden-sm-and-down"
@@ -28,7 +28,7 @@
           <carousel-3d
             autoplay="true"
             width="600"
-            height="300"
+            height="187"
             border="0"
             autoplayTimeout="3000"
             class="hidden-md-and-up hidden-xs-only"
@@ -50,7 +50,7 @@
           <carousel-3d
             autoplay="true"
             width="300"
-            height="150"
+            height="93.75"
             border="0"
             autoplayTimeout="3000"
             class="hidden-sm-and-up"
