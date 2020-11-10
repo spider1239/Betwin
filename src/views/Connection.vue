@@ -1,7 +1,7 @@
 <template>
   <v-container>
-    <v-content class="mt-8">
-      <v-row>
+    <v-content>
+      <v-row class=" mt-md-8 mt-sm-n2">
         <v-col md="12">
           <v-card elevation="2">
             <v-row>

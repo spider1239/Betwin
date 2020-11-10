@@ -1,7 +1,7 @@
 <template>
   <v-container class="fullwidth">
     <v-content>
-      <v-row class="text-center">
+      <v-row class="text-center mt-sm-7">
         <v-col md="12" class="nopadding mt-sm-9 hidden-xs-only">
           <v-img
             src="../assets/System/Banner.jpg"
@@ -138,7 +138,19 @@
           </div>
         </v-col>
         <v-col md="12" class="hidden-sm-and-down">
-          <v-img src="../assets/System/global.png" contain height="500"></v-img>
+          <v-lazy
+            transition="scroll-y-reverse-transition"
+            hide-on-leave
+            :options="{
+              threshold: 0.5,
+            }"
+          >
+            <v-img
+              src="../assets/System/global.png"
+              contain
+              height="500"
+            ></v-img>
+          </v-lazy>
         </v-col>
 
         <v-col sm="4" class="hidden-md-and-up">

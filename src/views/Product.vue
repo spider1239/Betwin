@@ -1,7 +1,7 @@
 <template>
   <v-container class="fullwidth">
-    <v-content class="mt-sm-5 mt-md-5">
-      <v-row class="text-center">
+    <v-content class="">
+      <v-row class="text-center mt-n4 mt-sm-15">
         <v-col cols="12" class="nopadding">
           <carousel-3d
             autoplay="true"

@@ -1,7 +1,7 @@
 <template>
   <v-container class="fullwidth">
-    <v-content class="mt-n4 mt-sm-7">
-      <v-row>
+    <v-content>
+      <v-row class="mt-n4 mt-sm-15">
         <v-col md="12" class="nopadding">
           <v-img
             src="../assets/Partner/SLOT.jpg"
